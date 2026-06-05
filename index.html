@@ -55,90 +55,55 @@ tailwind.config = {
 TOP HEADER
 ===================================== -->
 
-<header class="top-header">
+<header class="navbar">
 
-    <div class="container-custom">
-
-        <div class="top-header-wrapper">
-
-            <a href="index.html" class="logo">
-                <img src="Images/EVANOVICH (1).png"
-                     alt="I Know Evanovich Africa Logo">
-            </a>
-
-            <div class="header-actions">
-
-                <a href="donate.html" class="donate-btn">
-                    Donate Now
-                </a>
-
+    <!-- Top Bar -->
+    <div class="header-top">
+        <div class="container-custom">
+            <div class="top-content">
+                <div class="logo-wrapper">
+                    <a href="index.html" class="logo">
+                        <img src="Images/EVANOVICH.svg" alt="I Know Evanovich Africa logo">
+                    </a>
+                </div>
+                <div class="top-contact">
+                    <span class="contact-detail"><i class="las la-phone"></i> +256 XXX XXX XXX</span>
+                    <span class="contact-detail"><i class="las la-envelope"></i> info@evanovichafrica.org</span>
+                    <a href="donate.html" class="donate-btn">Donate Now</a>
+                    <div class="mobile-menu-btn" id="mobileMenuBtn">☰</div>
+                </div>
             </div>
-
         </div>
+    </div>
+    
+    <!-- Bottom Nav -->
+    <div class="header-bottom">
+        <div class="container-custom">
+            <nav class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="stories.html">Stories</a>
+        <a href="contact.html">Contact</a>
+        <a href="donate.html" class="donate-btn" style="width: 100%; text-align: center;">Donate Now</a>
     </div>
 
 </header>
 
-<!-- =====================================
-NAVIGATION BAR
-===================================== -->
-
-<div class="navbar">
-
-    <div class="container-custom">
-
-        <nav class="nav-wrapper">
-
-            <ul class="nav-links">
-
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="about.html">About Us</a></li>
-
-                <li><a href="programs.html">Programs</a></li>
-
-                <li><a href="gallery.html">Gallery</a></li>
-
-                <li><a href="stories.html">Stories</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-
-            <div
-                class="mobile-menu-btn"
-                id="mobileMenuBtn">
-                ☰
-            </div>
-
-        </nav>
-
-        <div
-            class="mobile-menu"
-            id="mobileMenu">
-
-            <a href="index.html">Home</a>
-
-            <a href="about.html">About Us</a>
-
-            <a href="programs.html">Programs</a>
-
-            <a href="gallery.html">Gallery</a>
-
-            <a href="stories.html">Stories</a>
-
-            <a href="contact.html">Contact</a>
-
-            <a href="donate.html" class="donate-btn">
-                Donate Now
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
 
 <!-- ========================= -->
 <!-- HERO -->
